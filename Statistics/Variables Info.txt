@@ -1,0 +1,40 @@
+Time          yyyy-mm-dd HH:MM:SS UTC-6
+Lat 19.6493 N
+Lon 101.2221 W
+Alt 1936 masl
+
+Flags:
+	OK = Reliable data
+	BDL = Below Detection Limit
+	OR = Out of Range
+	OS = Out of Service 
+
+Air Quality:
+
+	O3                            ppb
+	O3_flag                      flag
+	SO2                           ppb
+	SO2_flag                     flag
+	NO2                           ppb
+	NO2_flag                     flag
+	NO                            ppb
+	NO_flag                      flag
+	CO                            ppm
+	CO_flag                      flag
+	PM10                       ug/m^3
+	PM10_flag                    flag
+	PM2.5                      ug/m^3
+	PM2.5_flag                   flag
+
+Meteorology
+
+	Temp_Avg                       °C
+	RH_Avg                          %
+	WSpeed_Avg                    m/s
+	WSpeed_Max                    m/s
+	WDir_Avg                      deg
+	WDir_SD                       deg
+	Rain_Tot                       mm
+	Press_Avg                     hPa
+	Rad_Avg                     W/m^2
+
