@@ -1,0 +1,3 @@
+Calculate the correlation between all pairs of variables that may be relevant in your study (obtain a correlogram). 
+Based on the correlation result and possible causality between two variables, 
+choose a pair and perform a descriptive analysis of these two variables.
