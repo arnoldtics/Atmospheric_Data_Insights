@@ -1,0 +1,3 @@
+3. Normality tests
+3.1 Perform a test to identify if your data follows a normal distribution (consider the different categories you will use).
+3.2 If necessary, transform your data according to the corresponding lambda value and test the normality of your data again.s
