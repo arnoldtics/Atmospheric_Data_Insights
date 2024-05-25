@@ -9,7 +9,7 @@ hot_season <- m_spring_summer$O3
 cold_season <- m_autumn_winter$O3
 
 
-# Checking de distribution with a boxplot
+# Checking the distribution with a boxplot
 png("boxplot.png", width=800, height=1200)
 boxplot(hot_season, cold_season)
 dev.off()
