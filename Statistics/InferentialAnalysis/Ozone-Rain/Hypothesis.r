@@ -41,7 +41,7 @@ var(rain)
 fc <- var(no_rain)/var(rain)
 fc # fc = 1.11
 qf(0.05, 223, 90, lower.tail=FALSE) # ft = 1.35
-# H0 accepted. Variances have homogenuity
+# H0 accepted. Variances have homogeneity
 
 
 # t-student test
