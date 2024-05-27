@@ -30,7 +30,7 @@ leveneTest(O3 ~ RelativeHumidity, data = m1)
 #             Df         F value     Pr(>F)
 # group        6          0.9769     0.4409
 #            308
-# p-value = 0.44 -> Variances are equals
+# p-value = 0.44 -> Variances are equal
 
 # Tukey test for checking which relative humidity category has a different effect on the ozone concentration
 tukey <- TukeyHSD(anova)
