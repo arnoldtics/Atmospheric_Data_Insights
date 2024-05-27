@@ -16,6 +16,8 @@ summary(anova)
 #              Df Sum Sq Mean Sq F value Pr(>F)
 # Weather       2    420  210.05   3.454 0.0328 *
 # Residuals   312  18975   60.82
+# Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
 # Then, we can reject the null hypothesis: not all the rain samples have the same impact on the PM2.5 concentration
 
 # Before, doing a Tukey test for finding the rain categories that actually have impact on the PM2.5 concentration,
