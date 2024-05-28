@@ -32,7 +32,7 @@ leveneTest(O3 ~ Radiation, data = m1)
 #       312
 # p-value = 0.17 -> Variances are equal
 
-# Tukey test for checking which relative humidity category has a different effect on the ozone concentration
+# Tukey test for checking which radiation category has a different effect on the ozone concentration
 tukey <- TukeyHSD(anova)
 tukey
 #                              diff      lwr       upr     p adj
