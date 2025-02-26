@@ -15,7 +15,7 @@ html = bs(rq.get(url).content, "html.parser")
 links = []
 for label in html.find_all('a'): 
     for year in years:
-        if year in label['download'] and ".csv" in label['download'] and not "STAT" in label['download']:
+        if year in label['download'] and ".csv" in label['download'] and not "STAT" in label['download'] and "caire" in label["download"]:
             links.append(url.replace(".php", "/") + label['download'])
 
 os.makedirs(PATH, exist_ok=True)
