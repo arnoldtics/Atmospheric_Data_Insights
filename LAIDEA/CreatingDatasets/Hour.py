@@ -18,4 +18,4 @@ aggregation_functions = {
 }
 dfDay = df.groupby("Hour").agg(aggregation_functions).reset_index()
 
-dfDay.to_csv(PATH + "Day.csv", index=False)
+dfDay.to_csv(PATH + "Hour.csv", index=False)
