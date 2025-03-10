@@ -4,3 +4,4 @@ SolarRadiation W/m^2
 RelativeHumidity %
 WindDirection °A
 O3 ppb
+PM10 μg/m³
