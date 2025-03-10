@@ -1,3 +1,4 @@
 Temperature °C
 Rainfall mm
 SolarRadiation W/m^2
+RelativeHumidity %
