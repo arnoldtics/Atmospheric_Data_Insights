@@ -7,3 +7,4 @@ O3 ppb
 PM10 μg/m³
 PM2.5 μg/m³
 CO ppm
+SO2 ppb
