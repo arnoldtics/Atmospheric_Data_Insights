@@ -3,3 +3,4 @@ Rainfall mm
 SolarRadiation W/m^2
 RelativeHumidity %
 WindDirection °A
+O3 ppb
