@@ -13,9 +13,8 @@ aggregation_functions = {
     'WDir_Avg': lambda x: round(x).mode().iloc[0] if not x.mode().empty else None,
     'Rain_Tot': 'sum',
     'WDir_SD': 'std',
-    'Date': lambda x: x,
     **{col: 'mean' for col in df.columns if col not in ['Hour', 'Date'] and 'flag' not in col and col not in ['WDir_Avg', 'Rain_Tot', 'WDir_SD']}
 }
-dfDay = df.groupby("Hour").agg(aggregation_functions).reset_index()
+dfDay = df.groupby(["Date", "Hour"]).agg(aggregation_functions).reset_index()
 
 dfDay.to_csv(PATH + "Hour.csv", index=False)
