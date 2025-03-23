@@ -7,13 +7,13 @@ Arnoldo Fernando Chue Sánchez: arnoldwork20@gmail.com
 This research project presents a comprehensive data lake for the UNAM Network of Atmospheric Observatories (RUOA). Through courses such as descriptive and inferential statistics, multivariate analysis, data mining, and digital repositories, and in close collaboration with the International Laboratory of Environmental Electronic Devices (LAIDEA), most of the work has focused on meteorological and air quality data from Morelia, Michoacán. However, the pipelines, visualizations, and machine learning models developed are robust enough to scale to larger datasets. This project has uncovered meaningful patterns, validated key observations, and applied statistical and machine learning techniques to advance atmospheric sciences research.
 
 ## Key Activities
-1. Data Extraction with Web Scraping
-    - Develop web scraping pipelines to get all the datasets of ten years from any city in the RUOA efficiently.
+1. Automatic Data Extraction 
+    - Develop automatic extraction pipelines to get all the datasets of ten years from any city in the RUOA efficiently.
 2. Data Transformation
     - Integrated multiple datasets spanning several years into a comprehensive and uniform dataset.
 3. Data Validation and Cleaning
     - Employed scientific methods and domain knowledge to validate data accuracy.
-    - Applied robust cleaning techniques to ensure reliable and consistent results.
+    - Implement of a complete Python module to applied robust cleaning techniques to ensure reliable and consistent results.
 4. Data Visualization
     - Designed informative and visually appealing plots to explore data distributions and temporal trends.
     - Used advanced visualization libraries to illustrate relationships between meteorological variables and air pollutants.
@@ -31,6 +31,7 @@ This research project presents a comprehensive data lake for the UNAM Network of
 8. Predictive Modeling
     - Developed and trained traditional machine learning, ensemble learning, and deep learning models to predict cluster labels for new data samples.
     - Built neural network models for multi-variable regression to predict air quality based on meteorological variables.
+    - Implementation of deep learning models for time series predictions.
 
 ## Impact
 This project provides a robust framework for analyzing air quality and meteorological data, aiding researchers and policymakers in making informed decisions about environmental monitoring and management. By combining advanced statistical methods with state-of-the-art machine learning techniques, it sets the groundwork for scalable and actionable insights into atmospheric science.
