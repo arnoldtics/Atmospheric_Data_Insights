@@ -6,8 +6,9 @@ dfMorelia = pd.read_csv(PATH + "Morelia.csv")
 dfJuriquilla = pd.read_csv(PATH + "Juriquilla.csv")
 dfMerida = pd.read_csv(PATH + "Merida.csv")
 dfHermosillo = pd.read_csv(PATH + "Hermosillo.csv")
+dfSaltillo = pd.read_csv(PATH + "Saltillo.csv")
 
-df = pd.concat([dfMorelia, dfJuriquilla, dfMerida, dfHermosillo], axis=0)
+df = pd.concat([dfMorelia, dfJuriquilla, dfMerida, dfHermosillo, dfSaltillo], axis=0)
 df["Time"] = pd.to_datetime(df["Time"])
 df.sort_values("Time", inplace=True)
 
