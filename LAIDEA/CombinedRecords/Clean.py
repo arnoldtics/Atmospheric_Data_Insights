@@ -1,5 +1,9 @@
 import numpy as np
 
+def temperature(x):
+    if x >= -20: return x
+    return np.nan
+
 def windDirection(x):
     if x > 0 and x <= 360: return x
     return np.nan
