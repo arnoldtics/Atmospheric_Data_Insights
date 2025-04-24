@@ -2,7 +2,7 @@ import pandas as pd
 import os 
 from Clean import *
 
-pathAQ = "../Datasets/AirQuality/"
+pathAQ = "../Datasets/Mérida/AirQuality/"
 titlesAQ = os.listdir(pathAQ)
 
 for i, title in enumerate(titlesAQ):
@@ -14,7 +14,7 @@ for i, title in enumerate(titlesAQ):
         following.drop(0, axis=0, inplace=True) 
         dfAQ = pd.concat([dfAQ, following], ignore_index=True)
 
-pathMet = "../Datasets/Meteorology/"
+pathMet = "../Datasets/Mérida/Meteorology/"
 titlesMet = os.listdir(pathMet)
 
 for i, title in enumerate(titlesMet):
@@ -57,6 +57,7 @@ for c in df.columns:
     elif c == "CO": df[c] = df[c].apply(co)
     elif c == "PM10": df[c] = df[c].apply(pm)
     elif c == "PM2.5": df[c] = df[c].apply(pm)
+    elif c == "Temp_Avg": df[c] = df[c].apply(temperature)
 
 PATH = "../Datasets/"
 df.to_csv(PATH + "Merida.csv", index=False)
