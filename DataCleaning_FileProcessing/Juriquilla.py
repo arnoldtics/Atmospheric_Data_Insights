@@ -63,6 +63,7 @@ for c in df.columns:
     elif c == "CO": df[c] = df[c].apply(co)
     elif c == "PM10": df[c] = df[c].apply(pm)
     elif c == "PM2.5": df[c] = df[c].apply(pm)
+    elif c == "Temp_Avg": df[c] = df[c].apply(temperature)
 
 PATH = "../Datasets/"
 df.to_csv(PATH + "Juriquilla.csv", index=False)
