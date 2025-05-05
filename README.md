@@ -14,6 +14,7 @@ This research project presents a comprehensive data lake for the UNAM Network of
 3. Data Validation and Cleaning
     - Employed scientific methods and domain knowledge to validate data accuracy.
     - Implement of a complete Python module to applied robust cleaning techniques to ensure reliable and consistent results.
+    - Implementation of a Python module for applying data imputation techniques tailored to atmospheric variables
 4. Data Visualization
     - Designed informative and visually appealing plots to explore data distributions and temporal trends.
     - Used advanced visualization libraries to illustrate relationships between meteorological variables and air pollutants.
